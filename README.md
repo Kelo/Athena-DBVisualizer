@@ -52,7 +52,7 @@ If you have multiple AWS profiles under one account E.g. 'prod' & 'dev':
 
 ---
 
-## Common issues:
+## Common issues
 #### ATHENA_CLIENT. Can't find bundle for base name com.simba.athena.athena.jdbc42.messages, locale ...
 This error is a bit of red herring. The error occurs because the locales bundle was missed when the Athena jars were built.
 However this error only occurs because it can't display the other error you're encountering. 
@@ -60,3 +60,9 @@ This could be a misconfiguration or a misspelt SQL statement. To properly debug 
 E.g.
 `jdbc:awsathena://AwsRegion=us-east-1;LogLevel=3;LogPath=/Users/<Your name>/dbvislogs;`
 This database url change will output log files into the dbvislogs directory which will allow you to figure out what's really going on.
+
+---  
+## Helpful links
+[AWS Support Forums: Output Bucket Error](https://aws.amazon.com/premiumsupport/knowledge-center/athena-output-bucket-error/)
+  
+[Simba Athena JDBC Docs](https://s3.amazonaws.com/athena-downloads/drivers/JDBC/SimbaAthenaJDBC-2.0.32.1000/docs/Simba+Amazon+Athena+JDBC+Connector+Install+and+Configuration+Guide.pdf)
