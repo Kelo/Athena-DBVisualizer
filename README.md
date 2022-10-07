@@ -11,7 +11,7 @@ You need to download the AWS Athena JDBC42 jar file from https://docs.aws.amazon
 Download the JDBC42 driver **with** AWS SDK.
 If you download the JDBC driver without AWS SDK, you'll encounter errors like: `java.lang.NoClassDefFoundError: com/amazonaws/auth/AWSCredentials`.
 
-Once downloaded, you should move the jar file into your dbvis/jdbc folder. On Mac, this folder is located at /Users/<Your name>/.dbvis/jdbc/
+Once downloaded, you should move the jar file into your dbvis/jdbc folder. On Mac, this folder is located at `/Users/<Your name>/.dbvis/jdbc/`
 
 ## Setting up the JDBC driver in DBVisualizer
 - Open DBVis
