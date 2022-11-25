@@ -1,5 +1,5 @@
-# Athena-DBVisualizer
-This README will demonstrate how to setup an AWS Athena Database in DBVisualizer.
+# Connecting to AWS Athena Data in DBVisualizer
+This README will demonstrate how to connect to an AWS Athena Database using DBVisualizer.
 
 Prerequisites:
 - AWS Account with an Athena DB setup on it (Athena database should have a S3 bucket setup for query results)
